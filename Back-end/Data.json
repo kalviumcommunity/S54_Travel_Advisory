@@ -1,357 +1,222 @@
-{
-  "states": [
-    {
-      "state": "Uttar Pradesh",
-      "places": [
-        {
-          "name": "Farrukhabad Fort",
-          "rating": "2.5",
-          "review": "The fort is poorly maintained and lacks proper facilities for tourists. The location is not easily accessible.",
-          "weather": "Hot and humid during summers, cold during winters",
-          "google_map_location": "https://maps.google.com/farrukhabadfort",
-          "infrastructure": "Limited amenities, lack of proper signage and cleanliness",
-          "img": "https://alchetron.com/cdn/farrukhabad-district-d1233f27-12f8-44e4-bdfb-ffca4b036ca-resize-750.jpeg"
-        
-        },
-        {
-          "name": "Meerut Martyrs' Memorial",
-          "rating": "3.0",
-          "review": "The memorial lacks proper maintenance and infrastructure. Not a popular tourist spot due to its remote location.",
-          "weather": "Extreme temperatures, hot summers and cold winters",
-          "google_map_location": "https://maps.google.com/meerutmartyrsmemorial",
-          "infrastructure": "Poor facilities, lack of amenities, and inadequate transportation",
-          "img": "https://media-cdn.tripadvisor.com/media/photo-s/08/a5/85/76/shahid-smarak.jpg"
-        },
-        {
-          "name": "Ayodhya Gardens",
-          "rating": "2.8",
-          "review": "The gardens suffer from neglect and lack of upkeep. Limited facilities and cleanliness issues.",
-          "weather": "Hot summers, cool winters",
-          "google_map_location": "https://maps.google.com/ayodhyagardens",
-          "infrastructure": "Inadequate facilities, lack of maintenance, and poor hygiene",
-          "img": "https://content.jdmagicbox.com/comp/nagpur/q5/0712px712.x712.170603005228.k8q5/catalogue/sakkardara-garden-children-play-ground-ayodhya-nagar-nagpur-s97g5qf5tx.jpg"
-        }
-      ]
-    },
-    {
-      "state": "Bihar",
-      "places": [
-        {
-          "name": "Kesariya Stupa",
-          "rating": "2.2",
-          "review": "The stupa suffers from neglect and lacks proper infrastructure. Accessibility is a major issue.",
-          "weather": "Hot and humid summers, cold winters",
-          "google_map_location": "https://maps.google.com/kesariyastupa",
-          "infrastructure": "Limited facilities, lack of maintenance, and poor transportation",
-          "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/6f/b9/fd/photo1jpg.jpg?w=1200&h=-1&s=1"
-        },
-        {
-          "name": "Rajgir Hot Springs",
-          "rating": "2.8",
-          "review": "The hot springs are poorly maintained and unhygienic. Lack of proper facilities and cleanliness.",
-          "weather": "Hot summers, moderate winters",
-          "google_map_location": "https://maps.google.com/rajgirhotsprings",
-          "infrastructure": "Inadequate facilities, lack of cleanliness, and limited amenities",
-          "img": "https://www.trawell.in/admin/images/upload/125399242Rajgir_Hot_Springs_Main.jpg"
-        },
-        {
-          "name": "Bihar Sharif Tomb",
-          "rating": "2.4",
-          "review": "The tomb suffers from neglect and lack of proper upkeep. Accessibility is also a concern.",
-          "weather": "Hot summers, cool winters",
-          "google_map_location": "https://maps.google.com/biharshariftomb",
-          "infrastructure": "Limited facilities, lack of maintenance, and poor accessibility",
-          "img": "https://cdn.britannica.com/79/74679-050-4032B6A1/Tomb-Bihar-Sharif-India.jpg"
-        }
-      ]
-    },
-    {
-      "state": "Telangana",
-      "places": [
-        {
-          "name": "Golkonda Fort",
-          "rating": "3.5",
-          "review": "The fort is poorly maintained and lacks proper facilities for tourists. The location is not easily accessible.",
-          "weather": "Hot and dry summers, mild winters",
-          "google_map_location": "https://maps.google.com/golkondafort",
-          "infrastructure": "Limited amenities, lack of proper signage and cleanliness",
-          "img": "https://www.savaari.com/blog/wp-content/uploads/2022/10/Golkonda-fort.jpg"
-        },
-        {
-          "name": "Bhongir Fort",
-          "rating": "2.8",
-          "review": "The fort lacks maintenance and proper facilities. Accessibility can be challenging.",
-          "weather": "Hot summers, cool winters",
-          "google_map_location": "https://maps.google.com/bhongirfort",
-          "infrastructure": "Inadequate facilities, lack of maintenance, and poor accessibility",
-          "img": "https://static.wixstatic.com/media/a0e98e_2ed2773b06a2483fbe9da17a65a85124~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_1000,h_667,al_c,q_85,usm_0.66_1.00_0.01/a0e98e_2ed2773b06a2483fbe9da17a65a85124~mv2_d_6000_4000_s_4_2.jpg"
-        },
-        {
-          "name": "Kuntala Waterfalls",
-          "rating": "3.2",
-          "review": "The waterfalls are overcrowded and lack proper amenities. Accessibility can be difficult.",
-          "weather": "Hot summers, moderate winters",
-          "google_map_location": "https://maps.google.com/kuntalawaterfalls",
-          "infrastructure": "Limited facilities, overcrowding, and poor sanitation",
-          "img": "https://peopleplaces.in/wp-content/uploads/2023/03/Kuntala-Waterfalls-1-1.jpg"
-        }
-      ]
-    },
-    {
-      "state": "Delhi",
-      "places": [
-        {
-          "name": "Purana Qila",
-          "rating": "3.0",
-          "review": "The fort suffers from neglect and lack of maintenance. Limited facilities and cleanliness issues.",
-          "weather": "Hot summers, mild winters",
-          "google_map_location": "https://maps.google.com/puranaqila",
-          "infrastructure": "Inadequate facilities, lack of maintenance, and poor accessibility",
-          "img": "https://iasbaba.com/wp-content/uploads/2023/01/pq.jpg"
-        },
-        {
-          "name": "Nehru Park",
-          "rating": "2.7",
-          "review": "The park lacks proper maintenance and amenities. Accessibility can be challenging.",
-          "weather": "Hot summers, cool winters",
-          "google_map_location": "https://maps.google.com/nehrupark",
-          "infrastructure": "Limited facilities, lack of cleanliness, and overcrowding",
-          "img": "https://www.urtrips.com/wp-content/uploads/2022/08/nehru-park-new-delhi.jpg"
-        },
-        {
-          "name": "Tughlaqabad Fort",
-          "rating": "2.4",
-          "review": "The fort is poorly maintained and lacks proper facilities for tourists. Accessibility can be difficult.",
-          "weather": "Hot summers, mild winters",
-          "google_map_location": "https://maps.google.com/tughlaqabadfort",
-          "infrastructure": "Limited amenities, lack of proper signage and cleanliness",
-          "img": "https://media.assettype.com/homegrown%2F2023-03%2F50b292c8-54ea-4bd2-b40a-a468ae8f8000%2FWhatsApp_Image_2023_03_02_at_16_45_59.jpeg"
-        }
-      ]
-    },
-    {
-      "state": "Punjab",
-      "places": [
-        {
-          "name": "Durgiana Temple",
-          "rating": "2.8",
-          "review": "The temple lacks maintenance and proper facilities. Accessibility can be challenging.",
-          "weather": "Hot summers, mild winters",
-          "google_map_location": "https://maps.google.com/durgianatemple",
-          "infrastructure": "Inadequate facilities, lack of maintenance, and poor accessibility",
-          "img": "https://cdn.s3waas.gov.in/s3c3992e9a68c5ae12bd18488bc579b30d/uploads/bfi_thumb/2018061473-olwc3z2gyftp9z55y1binnknij9p02e2wa499zh5g4.jpg"
-        },
-        {
-          "name": "Wagah Border",
-          "rating": "3.5",
-          "review": "The border ceremony is overcrowded and lacks proper facilities. Accessibility can be challenging.",
-          "weather": "Hot summers, cool winters",
-          "google_map_location": "https://maps.google.com/wagahborder",
-          "infrastructure": "Limited facilities, overcrowding, and poor sanitation",
-          "img": "https://img.etimg.com/thumb/msid-103631443,width-300,height-225,imgsize-218142,resizemode-75/amritsar-aug-16-ani-border-security-force-bsf-soldiers-and-pakistani-range-.jpg"
-        },
-        {
-          "name": "Maharaja Ranjit Singh Museum",
-          "rating": "2.6",
-          "review": "The museum is poorly maintained and lacks proper facilities. Accessibility can be challenging.",
-          "weather": "Hot summers, mild winters",
-          "google_map_location": "https://maps.google.com/maharajaranjitsinghmuseum",
-          "infrastructure": "Limited amenities, lack of proper signage and cleanliness",
-          "img": "https://punjabtourism.punjab.gov.in/museums/maharaja-ranjit-singh-memorial-ludhiana/maharaja-ranjit-singh-memorial-ludhiana-1.jpg"
-        }
-      ]
-    },
-    {
-      "state": "West Bengal",
-      "places": [
-        {
-          "name": "Buxa Fort",
-          "rating": "2.2",
-          "review": "The fort is poorly maintained and lacks proper facilities for tourists. The location is not easily accessible.",
-          "weather": "Hot and humid summers, cool winters",
-          "google_map_location": "https://maps.google.com/buxafort",
-          "infrastructure": "Limited amenities, lack of proper signage and cleanliness",
-          "img": "https://www.earthtrip.in/gallery/cityImage/1465275328_buxa-fort.jpg"
-        },
-        {
-          "name": "Hazarduari Palace",
-          "rating": "3.0",
-          "review": "The palace suffers from neglect and lack of maintenance. Limited facilities and cleanliness issues.",
-          "weather": "Hot and humid summers, mild winters",
-          "google_map_location": "https://maps.google.com/hazarduaripalace",
-          "infrastructure": "Inadequate facilities, lack of maintenance, and poor accessibility",
-          "img": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/39/b9/52.jpg"
-        },
-        {
-          "name": "Santiniketan",
-          "rating": "2.7",
-          "review": "Santiniketan lacks proper maintenance and amenities. Accessibility can be challenging.",
-          "weather": "Hot and humid summers, mild winters",
-          "google_map_location": "https://maps.google.com/santiniketan",
-          "infrastructure": "Limited facilities, lack of cleanliness, and overcrowding",
-          "img": "https://images.indianexpress.com/2023/09/santiniketan.jpeg?w=640"
-        }
-      ]
-    },
-    {
-      "state": "Karnataka",
-      "places": [
-        {
-          "name": "Belgaum Fort",
-          "rating": "2.5",
-          "review": "The fort is poorly maintained and lacks proper facilities for tourists. The location is not easily accessible.",
-          "weather": "Hot and humid summers, cool winters",
-          "google_map_location": "https://maps.google.com/belgaumfort",
-          "infrastructure": "Limited amenities, lack of proper signage and cleanliness",
-          "img": "https://karnataka.b-cdn.net/wp-content/uploads/2014/07/kittur-chennamma-fort-entrance-belgaum.jpg"
-        },
-        {
-          "name": "Shettihalli Rosary Church",
-          "rating": "2.8",
-          "review": "The church suffers from neglect and lack of maintenance. Limited facilities and cleanliness issues.",
-          "weather": "Hot and humid summers, mild winters",
-          "google_map_location": "https://maps.google.com/shettihallirosarychurch",
-          "infrastructure": "Inadequate facilities, lack of maintenance, and poor accessibility",
-          "img": "https://1.bp.blogspot.com/-1-GdeDOJlnY/VYeHEMyCa_I/AAAAAAAACb8/-IdrU-q_yf4/s1600/Holy%2BRosary%2BChurch%2BBike.jpg"
-        },
-        {
-          "name": "Karwar Beach",
-          "rating": "3.2",
-          "review": "Karwar Beach is overcrowded and lacks proper amenities. Accessibility can be difficult.",
-          "weather": "Hot and humid summers, mild winters",
-          "google_map_location": "https://maps.google.com/karwarbeach",
-          "infrastructure": "Limited facilities, overcrowding, and poor sanitation",
-          "img": "https://www.holidify.com/images/cmsuploads/compressed/karwarbeaches_20191025130508.jpg"
-        }
-      ]
-    },
-    {
-      "state": "Tamil Nadu",
-      "places": [
-        {
-          "name": "Valluvar Kottam",
-          "rating": "2.7",
-          "review": "The monument lacks maintenance and proper facilities. Accessibility can be challenging.",
-          "weather": "Hot and humid summers, mild winters",
-          "google_map_location": "https://maps.google.com/valluvarkottam",
-          "infrastructure": "Inadequate facilities, lack of maintenance, and poor accessibility",
-          "img": "https://www.nativeplanet.com/img/2023/11/valluvar-kottam-monument-in-chennai-india_1700119898806-1200x675-20231116132601.jpg"
-        },
-        {
-          "name": "Vivekananda Rock Memorial",
-          "rating": "3.2",
-          "review": "The memorial is overcrowded and lacks proper amenities. Accessibility can be difficult.",
-          "weather": "Hot and humid summers, mild winters",
-          "google_map_location": "https://maps.google.com/vivekanandarockmemorial",
-          "infrastructure": "Limited facilities, overcrowding, and poor sanitation",
-          "img": "https://www.tamilnadutourism.tn.gov.in/img/pages/medium-desktop/popular-destinations-1655192642_47f85859447ea395926a.webp"
-        },
-        {
-          "name": "Dhanushkodi Ghost Town",
-          "rating": "2.4",
-          "review": "The ghost town suffers from neglect and lack of proper upkeep. Accessibility is also a concern.",
-          "weather": "Hot and humid summers, mild winters",
-          "google_map_location": "https://maps.google.com/dhanushkodighosttown",
-          "infrastructure": "Limited facilities, lack of maintenance, and poor accessibility",
-          "img": "https://static2.tripoto.com/media/filter/tst/img/137462/TripDocument/1591175364_dsc3355_copy.jpg"
-        }
-      ]
-    },
-    {
-      "state": "Kerala",
-      "places": [
-        {
-          "name": "Mattancherry Palace",
-          "rating": "3.0",
-          "review": "The palace suffers from neglect and lack of maintenance. Limited facilities and cleanliness issues.",
-          "weather": "Hot and humid summers, mild winters",
-          "google_map_location": "https://maps.google.com/mattancherrypalace",
-          "infrastructure": "Inadequate facilities, lack of maintenance, and poor accessibility",
-          "img": "https://assets-news.housing.com/news/wp-content/uploads/2021/05/28193235/Kochi%E2%80%99s-Mattancherry-Palace-Museum-Home-to-some-of-India%E2%80%99s-best-mythological-murals-FB-1200x700-compressed.jpg"
-        },
-        {
-          "name": "Napier Museum",
-          "rating": "2.8",
-          "review": "The museum is poorly maintained and lacks proper facilities for tourists. Accessibility can be difficult.",
-          "weather": "Hot and humid summers, mild winters",
-          "google_map_location": "https://maps.google.com/napiermuseum",
-          "infrastructure": "Limited amenities, lack of proper signage and cleanliness",
-          "img": "https://www.keralatourism.org/images/destination/mobile/napier_museum_sree_chithra_art_gallery_thiruvananthapuram20131031111356_327_1.jpg"
-        },
-        {
-          "name": "Bekal Fort",
-          "rating": "3.5",
-          "review": "The fort is overcrowded and lacks proper amenities. Accessibility can be challenging.",
-          "weather": "Hot and humid summers, mild winters",
-          "google_map_location": "https://maps.google.com/bekalfort",
-          "infrastructure": "Limited facilities, overcrowding, and poor sanitation",
-          "img": "https://www.keralatourism.org/images/destination/mobile/bekal_fort_kasaragod20131031102709_303_1.jpg"
-        }
-      ]
-    },
-    {
-      "state": "Assam",
-      "places": [
-        {
-          "name": "Sivasagar Tank",
-          "rating": "2.6",
-          "review": "The tank suffers from neglect and lack of maintenance. Limited facilities and cleanliness issues.",
-          "weather": "Hot and humid summers, mild winters",
-          "google_map_location": "https://maps.google.com/sivasagartank",
-          "infrastructure": "Inadequate facilities, lack of maintenance, and poor accessibility",
-          "img": "https://sivasagar.assam.gov.in/sites/default/files/inline-images/Siv_tank_0.jpg"
-        },
-        {
-          "name": "Kaziranga National Park",
-          "rating": "3.2",
-          "review": "The national park is overcrowded and poorly managed. Limited facilities and wildlife sightings.",
-          "weather": "Hot and humid summers, mild winters",
-          "google_map_location": "https://maps.google.com/kaziranganationalpark",
-          "infrastructure": "Limited facilities, overcrowding, and inadequate wildlife management",
-          "img": "https://www.travelworldplanet.com/wp-content/uploads/2019/08/Kaziranga-National-Park.jpg"
-        },
-        {
-          "name": "Madan Kamdev Temple",
-          "rating": "2.4",
-          "review": "The temple is poorly maintained and lacks proper facilities. Accessibility can be difficult.",
-          "weather": "Hot and humid summers, mild winters",
-          "google_map_location": "https://maps.google.com/madankamdevtemple",
-          "infrastructure": "Limited amenities, lack of proper signage and cleanliness",
-          "img": "https://yometro.com/images/places/madan-kamdev.jpg"
-        }
-      ]
-    },
-    {
-      "state": "Jharkhand",
-      "places": [
-        {
-          "name": "Hudru Falls",
-          "rating": "2.3",
-          "review": "The falls are overcrowded and lack proper amenities. Accessibility can be challenging.",
-          "weather": "Hot and humid summers, cool winters",
-          "google_map_location": "https://maps.google.com/hudrufalls",
-          "infrastructure": "Limited facilities, overcrowding, and poor sanitation",
-          "img": "https://media-cdn.tripadvisor.com/media/photo-s/13/40/03/f8/hudru-a-falls-to-visit.jpg"
-        },
-        {
-          "name": "Netarhat",
-          "rating": "2.8",
-          "review": "Netarhat lacks proper maintenance and amenities. Accessibility can be challenging.",
-          "weather": "Hot and humid summers, cool winters",
-          "google_map_location": "https://maps.google.com/netarhat",
-          "infrastructure": "Inadequate facilities, lack of maintenance, and poor accessibility",
-          "img": "https://utsav.gov.in/public/uploads/event_cover_image/event_715/16606506731087548963.jpg"
-        },
-        {
-          "name": "Patratu Valley",
-          "rating": "3.0",
-          "review": "The valley lacks maintenance and proper facilities. Accessibility can be challenging.",
-          "weather": "Hot and humid summers, cool winters",
-          "google_map_location": "https://maps.google.com/patratuvalley",
-          "infrastructure": "Limited facilities, lack of maintenance, and poor accessibility",
-          "img": "https://www.easternjharkhand.com/images/patratu.jpg"
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "state": "Uttar Pradesh",
+    "name": "Farrukhabad Fort",
+    "rating": "2.5",
+    "review": "The fort is poorly maintained and lacks proper facilities for tourists. The location is not easily accessible.",
+    "weather": "Hot and humid during summers, cold during winters",
+    "google_map_location": "https://maps.google.com/?q=Farrukhabad+Fort",
+    "infrastructure": "Limited amenities, lack of proper signage and cleanliness",
+    "img": "https://alchetron.com/cdn/farrukhabad-district-d1233f27-12f8-44e4-bdfb-ffca4b036ca-resize-750.jpeg"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "name": "Meerut Martyrs' Memorial",
+    "rating": "3.0",
+    "review": "The memorial lacks proper maintenance and infrastructure. Not a popular tourist spot due to its remote location.",
+    "weather": "Extreme temperatures, hot summers and cold winters",
+    "google_map_location": "https://maps.google.com/?q=Meerut+Martyrs%27+Memorial",
+    "infrastructure": "Poor facilities, lack of amenities, and inadequate transportation",
+    "img": "https://media-cdn.tripadvisor.com/media/photo-s/08/a5/85/76/shahid-smarak.jpg"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "name": "Ayodhya Gardens",
+    "rating": "2.8",
+    "review": "The gardens suffer from neglect and lack of upkeep. Limited facilities and cleanliness issues.",
+    "weather": "Hot summers, cool winters",
+    "google_map_location": "https://maps.google.com/?q=Ayodhya+Gardens",
+    "infrastructure": "Inadequate facilities, lack of maintenance, and poor hygiene",
+    "img": "https://content.jdmagicbox.com/comp/nagpur/q5/0712px712.x712.170603005228.k8q5/catalogue/sakkardara-garden-children-play-ground-ayodhya-nagar-nagpur-s97g5qf5tx.jpg"
+  },
+  {
+    "state": "Bihar",
+    "name": "Kesariya Stupa",
+    "rating": "2.2",
+    "review": "The stupa suffers from neglect and lacks proper infrastructure. Accessibility is a major issue.",
+    "weather": "Hot and humid summers, cold winters",
+    "google_map_location": "https://maps.google.com/?q=Kesariya+Stupa",
+    "infrastructure": "Limited facilities, lack of maintenance, and poor transportation",
+    "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/6f/b9/fd/photo1jpg.jpg?w=1200&h=-1&s=1"
+  },
+  {
+    "state": "Bihar",
+    "name": "Rajgir Hot Springs",
+    "rating": "2.8",
+    "review": "The hot springs are poorly maintained and unhygienic. Lack of proper facilities and cleanliness.",
+    "weather": "Hot summers, moderate winters",
+    "google_map_location": "https://maps.google.com/?q=Rajgir+Hot+Springs",
+    "infrastructure": "Inadequate facilities, lack of cleanliness, and limited amenities",
+    "img": "https://www.trawell.in/admin/images/upload/125399242Rajgir_Hot_Springs_Main.jpg"
+  },
+  {
+    "state": "Bihar",
+    "name": "Bihar Sharif Tomb",
+    "rating": "2.4",
+    "review": "The tomb suffers from neglect and lack of proper upkeep. Accessibility is also a concern.",
+    "weather": "Hot summers, cool winters",
+    "google_map_location": "https://maps.google.com/?q=Bihar+Sharif+Tomb",
+    "infrastructure": "Limited facilities, lack of maintenance, and poor accessibility",
+    "img": "https://cdn.britannica.com/79/74679-050-4032B6A1/Tomb-Bihar-Sharif-India.jpg"
+  },
+  {
+    "state": "Telangana",
+    "name": "Golkonda Fort",
+    "rating": "3.5",
+    "review": "The fort is poorly maintained and lacks proper facilities for tourists. The location is not easily accessible.",
+    "weather": "Hot and dry summers, mild winters",
+    "google_map_location": "https://maps.google.com/?q=Golkonda+Fort",
+    "infrastructure": "Limited amenities, lack of proper signage and cleanliness",
+    "img": "https://www.savaari.com/blog/wp-content/uploads/2022/10/Golkonda-fort.jpg"
+  },
+  {
+    "state": "Telangana",
+    "name": "Bhongir Fort",
+    "rating": "2.8",
+    "review": "The fort lacks maintenance and proper facilities. Accessibility can be challenging.",
+    "weather": "Hot summers, cool winters",
+    "google_map_location": "https://maps.google.com/?q=Bhongir+Fort",
+    "infrastructure": "Inadequate facilities, lack of maintenance, and poor accessibility",
+    "img": "https://static.wixstatic.com/media/a0e98e_2ed2773b06a2483fbe9da17a65a85124~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_1000,h_667,al_c,q_85,usm_0.66_1.00_0.01/a0e98e_2ed2773b06a2483fbe9da17a65a85124~mv2_d_6000_4000_s_4_2.jpg"
+  },
+  {
+    "state": "Telangana",
+    "name": "Tughlaqabad Fort",
+    "rating": "2.4",
+    "review": "The fort is poorly maintained and lacks proper facilities for tourists. Accessibility can be difficult.",
+    "weather": "Hot summers, mild winters",
+    "google_map_location": "https://maps.google.com/?q=Tughlaqabad+Fort",
+    "infrastructure": "Limited amenities, lack of proper signage and cleanliness",
+    "img": "https://media.assettype.com/homegrown%2F2023-03%2F50b292c8-54ea-4bd2-b40a-a468ae8f8000%2FWhatsApp_Image_2023_03_02_at_16_45_59.jpeg"
+  },
+  {
+    "state": "Punjab",
+    "name": "Durgiana Temple",
+    "rating": "2.8",
+    "review": "The temple lacks maintenance and proper facilities. Accessibility can be challenging.",
+    "weather": "Hot summers, mild winters",
+    "google_map_location": "https://maps.google.com/?q=Durgiana+Temple",
+    "infrastructure": "Inadequate facilities, lack of maintenance, and poor accessibility",
+    "img": "https://cdn.s3waas.gov.in/s3c3992e9a68c5ae12bd18488bc579b30d/uploads/bfi_thumb/2018061473-olwc3z2gyftp9z55y1binnknij9p02e2wa499zh5g4.jpg"
+  },
+  {
+    "state": "Punjab",
+    "name": "Maharaja Ranjit Singh Museum",
+    "rating": "2.6",
+    "review": "The museum is poorly maintained and lacks proper facilities. Accessibility can be challenging.",
+    "weather": "Hot summers, mild winters",
+    "google_map_location": "https://maps.google.com/?q=Maharaja+Ranjit+Singh+Museum",
+    "infrastructure": "Limited amenities, lack of proper signage and cleanliness",
+    "img": "https://punjabtourism.punjab.gov.in/museums/maharaja-ranjit-singh-memorial-ludhiana/maharaja-ranjit-singh-memorial-ludhiana-1.jpg"
+  },
+  {
+    "state": "Punjab",
+    "name": "Hazarduari Palace",
+    "rating": "3.0",
+    "review": "The palace suffers from neglect and lack of maintenance. Limited facilities and cleanliness issues.",
+    "weather": "Hot and humid summers, mild winters",
+    "google_map_location": "https://maps.google.com/?q=Hazarduari+Palace",
+    "infrastructure": "Inadequate facilities, lack of maintenance, and poor accessibility",
+    "img": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/39/b9/52.jpg"
+  },
+  {
+    "state": "West Bengal",
+    "name": "Santiniketan",
+    "rating": "2.7",
+    "review": "Santiniketan lacks proper maintenance and amenities. Accessibility can be challenging.",
+    "weather": "Hot and humid summers, mild winters",
+    "google_map_location": "https://maps.google.com/?q=Santiniketan",
+    "infrastructure": "Limited facilities, lack of cleanliness, and overcrowding",
+    "img": "https://images.indianexpress.com/2023/09/santiniketan.jpeg?w=640"
+  },
+  {
+    "state": "Karnataka",
+    "name": "Belgaum Fort",
+    "rating": "2.5",
+    "review": "The fort is poorly maintained and lacks proper facilities for tourists. The location is not easily accessible.",
+    "weather": "Hot and humid summers, cool winters",
+    "google_map_location": "https://maps.google.com/?q=Belgaum+Fort",
+    "infrastructure": "Limited amenities, lack of proper signage and cleanliness",
+    "img": "https://karnataka.b-cdn.net/wp-content/uploads/2014/07/kittur-chennamma-fort-entrance-belgaum.jpg"
+  },
+  {
+    "state": "Karnataka",
+    "name": "Karwar Beach",
+    "rating": "3.2",
+    "review": "Karwar Beach is overcrowded and lacks proper amenities. Accessibility can be difficult.",
+    "weather": "Hot and humid summers, mild winters",
+    "google_map_location": "https://maps.google.com/?q=Karwar+Beach",
+    "infrastructure": "Limited facilities, overcrowding, and poor sanitation",
+    "img": "https://www.holidify.com/images/cmsuploads/compressed/karwarbeaches_20191025130508.jpg"
+  },
+  {
+    "state": "Tamil Nadu",
+    "name": "Valluvar Kottam",
+    "rating": "2.7",
+    "review": "The monument lacks maintenance and proper facilities. Accessibility can be challenging.",
+    "weather": "Hot and humid summers, mild winters",
+    "google_map_location": "https://maps.google.com/?q=Valluvar+Kottam",
+    "infrastructure": "Inadequate facilities, lack of maintenance, and poor accessibility",
+    "img": "https://www.nativeplanet.com/img/2023/11/valluvar-kottam-monument-in-chennai-india_1700119898806-1200x675-20231116132601.jpg"
+  },
+  {
+    "state": "Tamil Nadu",
+    "name": "Vivekananda Rock Memorial",
+    "rating": "3.2",
+    "review": "The memorial is overcrowded and lacks proper amenities. Accessibility can be difficult.",
+    "weather": "Hot and humid summers, mild winters",
+    "google_map_location": "https://maps.google.com/?q=Vivekananda+Rock+Memorial",
+    "infrastructure": "Limited facilities, overcrowding, and poor sanitation",
+    "img": "https://www.tamilnadutourism.tn.gov.in/img/pages/medium-desktop/popular-destinations-1655192642_47f85859447ea395926a.webp"
+  },
+  {
+    "state": "Tamil Nadu",
+    "name": "Napier Museum",
+    "rating": "2.8",
+    "review": "The museum is poorly maintained and lacks proper facilities for tourists. Accessibility can be difficult.",
+    "weather": "Hot and humid summers, mild winters",
+    "google_map_location": "https://maps.google.com/?q=Napier+Museum",
+    "infrastructure": "Limited amenities, lack of proper signage and cleanliness",
+    "img": "https://www.keralatourism.org/images/destination/mobile/napier_museum_sree_chithra_art_gallery_thiruvananthapuram20131031111356_327_1.jpg"
+  },
+  {
+    "state": "Kerala",
+    "name": "Bekal Fort",
+    "rating": "3.5",
+    "review": "The fort is overcrowded and lacks proper amenities. Accessibility can be challenging.",
+    "weather": "Hot and humid summers, mild winters",
+    "google_map_location": "https://maps.google.com/?q=Bekal+Fort",
+    "infrastructure": "Limited facilities, overcrowding, and poor sanitation",
+    "img": "https://www.keralatourism.org/images/destination/mobile/bekal_fort_kasaragod20131031102709_303_1.jpg"
+  },
+  {
+    "state": "Assam",
+    "name": "Sivasagar Tank",
+    "rating": "2.6",
+    "review": "The tank suffers from neglect and lack of maintenance. Limited facilities and cleanliness issues.",
+    "weather": "Hot and humid summers, mild winters",
+    "google_map_location": "https://maps.google.com/?q=Sivasagar+Tank",
+    "infrastructure": "Inadequate facilities, lack of maintenance, and poor accessibility",
+    "img": "https://sivasagar.assam.gov.in/sites/default/files/inline-images/Siv_tank_0.jpg"
+  },
+  {
+    "state": "Assam",
+    "name": "Kaziranga National Park",
+    "rating": "3.2",
+    "review": "The national park is overcrowded and poorly managed. Limited facilities and wildlife sightings.",
+    "weather": "Hot and humid summers, mild winters",
+    "google_map_location": "https://maps.google.com/?q=Kaziranga+National+Park",
+    "infrastructure": "Limited facilities, overcrowding, and inadequate wildlife management",
+    "img": "https://www.travelworldplanet.com/wp-content/uploads/2019/08/Kaziranga-National-Park.jpg"
+  },
+  {
+    "state": "Jharkhand",
+    "name": "Betla National Park",
+    "rating": "3.2",
+    "review": "The national park is overcrowded and poorly managed. Limited facilities and wildlife sightings.",
+    "weather": "Hot and humid summers, cool winters",
+    "google_map_location": "https://maps.google.com/?q=Betla+National+Park",
+    "infrastructure": "Limited facilities, overcrowding, and inadequate wildlife management",
+    "img": "https://www.travelnewsdigest.in/wp-content/uploads/2019/08/Betla-National-Park-Jharkhand.jpg"
+  }
+]
