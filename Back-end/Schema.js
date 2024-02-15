@@ -1,5 +1,5 @@
-const mongoose = require(mongoose)
-const schema = new mongoose.schema({
+const mongoose=require("mongoose")
+const schema = new mongoose.Schema({
   State:{
     type:String,
     require:true,
@@ -30,5 +30,5 @@ const schema = new mongoose.schema({
   },
 })
 
-const dataModel = mongoose.model("Travel_Advisory",schema);
-module.exports=dataModel;
+const Travel = mongoose.model("Travel_Advisory",schema);
+module.exports=Travel;
