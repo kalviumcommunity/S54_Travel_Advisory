@@ -1,6 +1,6 @@
 const mongoose=require("mongoose")
 const schema = new mongoose.Schema({
-  State:{
+  state:{
     type:String,
     require:true,
   },
@@ -12,7 +12,7 @@ const schema = new mongoose.Schema({
     type:Number,
     require:true,
   },
-  location:{
+  img:{
     type:String,
     require:true,
   },
@@ -25,6 +25,10 @@ const schema = new mongoose.Schema({
     require:true,
   },
   infrastructure:{
+    type:String,
+    require:true,
+  },
+  review:{
     type:String,
     require:true,
   },
