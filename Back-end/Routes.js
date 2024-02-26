@@ -16,9 +16,9 @@ const validateRequest = (req, res, next) => {
   next();
 };
 
-router.post("/Travel",validateRequest,  async (req, res) => {
+router.post("/travel/Add",validateRequest,  async (req, res) => {
   try {
-      const newUser = await User.create(req.body);
+      const newUser = await Travel.create(req.body);
       if (newUser) {
           res.status(201).json(newUser);
       } else {
