@@ -21,10 +21,8 @@ import { AppContext } from "../Context/Parentcontext";
 const Place = () => {
   const [data, setData] = useState([]);
   const { value } = useContext(AppContext);
-
-  useEffect(() => {
-    // Fetch data from the API
-    axios
+const FetchData=()=>{
+  axios
       .get("https://s54-travel-advisory2.onrender.com/Travel")
       .then((res) => {
         // Update state with fetched data
@@ -33,6 +31,10 @@ const Place = () => {
       .catch((err) => {
         console.error("Error fetching data:", err);
       });
+}
+  useEffect(() => {
+    // Fetch data from the API
+    FetchData()
   }, []); // Empty dependency array means this effect runs only once on component mount
 
   return (

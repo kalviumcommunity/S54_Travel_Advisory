@@ -7,7 +7,7 @@ import {
   Input,
   Button,
 } from '@chakra-ui/react'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 
 export default function Formpage() {
@@ -23,6 +23,7 @@ export default function Formpage() {
     console.log(userData);
     const allData = { ...data, userData: userData }; // Assign userData as a property
     axios
+
       .post("https://s54-travel-advisory2.onrender.com/travel/Data", allData)
 
       .then((res) => {

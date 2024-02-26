@@ -42,19 +42,21 @@ const Dashboard = () => {
 
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [selectedItemId, setSelectedItemId] = useState(null);
-
-  useEffect(() => {
-    axios
+const FetchData=()=>{
+  axios
       .get("https://s54-travel-advisory2.onrender.com/Travel")
       .then((res) => setData(res.data))
       .catch((err) => console.log("error"));
+}
+  useEffect(() => {
+    FetchData()
   }, []);
 
   const handleDelete = (id) => {
     axios
       .delete(`https://s54-travel-advisory2.onrender.com/Travel/${id}`)
       .then(() => {
-        location.reload();
+        FetchData()
       })
       .catch((err) => console.log("error"));
   };
@@ -104,7 +106,7 @@ const Dashboard = () => {
                 <Text py="2">state -{item.state}</Text>
                 <Text py="2">infrastructure - {item.infrastructure}</Text>
 
-                <Text py="2">rating - {item.rating}</Text>
+                <Text py="2">rating - {item.rating}⭐</Text>
                 <Text py="2">review -{item.review}</Text>
                 <Text className="blue">
                   Location -{" "}
@@ -126,7 +128,7 @@ const Dashboard = () => {
                       onOpen();
                     }}
                     variant="solid"
-                    colorScheme="green"
+                    colorScheme="yellow"
                   >
                     update
                   </Button>
@@ -135,7 +137,7 @@ const Dashboard = () => {
                       handleDelete(item._id);
                     }}
                     variant="solid"
-                    colorScheme="red"
+                    colorScheme="pink"
                   >
                     Delete
                   </Button>
