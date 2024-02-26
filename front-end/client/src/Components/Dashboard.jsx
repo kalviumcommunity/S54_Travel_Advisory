@@ -32,7 +32,7 @@ import "./Place.css";
 
 const Dashboard = () => {
   const [data, setData] = useState([]);
-  const { isDark, setIsDark } = useState(false);
+  const [isDark, setIsDark] = useState(false); // Corrected initialization
   const [inputValue, setValue] = useState({
     rating: "",
     weather: "",
