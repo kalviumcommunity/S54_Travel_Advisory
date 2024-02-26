@@ -125,7 +125,7 @@ export default function Formpage() {
       </FormControl>
 
       <FormControl maxW={"sm"} isInvalid={errors.name}>
-        <FormLabel htmlFor='cameragoogle_map_location'>google_map_location</FormLabel>
+        <FormLabel htmlFor='google_map_location'>google_map_location</FormLabel>
         <Input
           placeholder='enter google_map_location '
           {...register('google_map_location', {
