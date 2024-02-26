@@ -127,7 +127,7 @@ export default function Formpage() {
       </FormControl>
 
       <FormControl maxW={"sm"} isInvalid={errors.name}>
-        <FormLabel htmlFor='cameragoogle_map_location'>google_map_location</FormLabel>
+        <FormLabel htmlFor='google_map_location'>google_map_location</FormLabel>
         <Input
           placeholder='enter google_map_location '
           {...register('google_map_location', {
@@ -140,7 +140,7 @@ export default function Formpage() {
       
       </FormControl>
 
-      <Button mt={4} colorScheme='teal' isLoading={isSubmitting} type='submit'>
+      <Button mt={4} colorScheme='blue' isLoading={isSubmitting} type='submit'>
         Submit
       </Button>
     </form>
