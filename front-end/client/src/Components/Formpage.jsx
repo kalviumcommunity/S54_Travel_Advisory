@@ -138,7 +138,7 @@ export default function Formpage() {
       
       </FormControl>
 
-      <Button mt={4} colorScheme='teal' isLoading={isSubmitting} type='submit'>
+      <Button mt={4} colorScheme='blue' isLoading={isSubmitting} type='submit'>
         Submit
       </Button>
     </form>
