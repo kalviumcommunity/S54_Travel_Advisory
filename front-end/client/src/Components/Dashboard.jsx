@@ -35,7 +35,7 @@ const Dashboard = () => {
   const [isDark, setIsDark] = useState(false); // Corrected initialization
   const [inputValue, setValue] = useState({
     rating: "",
-    weather: "",
+    img: "",
     review: "",
     infrastructure: "",
   });
@@ -73,7 +73,7 @@ const Dashboard = () => {
         `https://s54-travel-advisory2.onrender.com/Travel/${selectedItemId}`,
         {
           rating: inputValue.rating,
-          weather: inputValue.weather,
+          img: inputValue.img,
           review: inputValue.review,
           infrastructure: inputValue.infrastructure,
         }
@@ -106,7 +106,6 @@ const Dashboard = () => {
 
                 <Text py="2">rating - {item.rating}</Text>
                 <Text py="2">review -{item.review}</Text>
-                <Text py="2">weather -{item.weather}</Text>
                 <Text className="blue">
                   Location -{" "}
                   <a
@@ -163,11 +162,11 @@ const Dashboard = () => {
             </FormControl>
 
             <FormControl mt={4}>
-              <FormLabel>Weather</FormLabel>
+              <FormLabel>img</FormLabel>
               <Input
                 onChange={handleChange}
-                name="weather"
-                placeholder="weather"
+                name="img"
+                placeholder="img"
               />
             </FormControl>
 
