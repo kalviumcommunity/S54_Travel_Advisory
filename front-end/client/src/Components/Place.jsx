@@ -55,7 +55,7 @@ const Place = () => {
               <Text py="2">infrastructure -{item.infrastructure}</Text>
               <Text py="2">rating - {item.rating}</Text>
               <Text py="2">weather -{item.weather}</Text>
-              <Text>Review - {item.review}</Text>
+              <Text py="2">Review - {item.review}</Text>
               <Text className="blue">
                  Location -{" "}
                 <a
