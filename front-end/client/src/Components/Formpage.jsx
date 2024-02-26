@@ -23,7 +23,8 @@ export default function Formpage() {
     console.log(userData);
     const allData = { ...data, userData: userData }; // Assign userData as a property
     axios
-      .post("http://localhost:4000/travel/Add", allData)
+      .post("https://s54-travel-advisory2.onrender.com/travel/Data", allData)
+
       .then((res) => {
         console.log(res);
       })

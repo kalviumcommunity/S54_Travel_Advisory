@@ -16,6 +16,7 @@ const validateRequest = (req, res, next) => {
   next();
 };
 
+
 router.post("/travel/Add",validateRequest,  async (req, res) => {
   try {
       const newUser = await Travel.create(req.body);
@@ -31,6 +32,8 @@ router.post("/travel/Add",validateRequest,  async (req, res) => {
   }
 });
 
+
+
 router.get("/Travel", async (req, res) => {
   try {
     const NewPlace = await Travel.find();
@@ -42,7 +45,7 @@ router.get("/Travel", async (req, res) => {
 });
 
 // post a new data
-router.post("/Travel", async (req, res) => {
+router.post("/travel/Data", async (req, res) => {
   const data=req.body
   const newUserTravel= new Travel(data)
   console.log(newUserTravel)
