@@ -34,10 +34,10 @@ const Dashboard = () => {
   const [data, setData] = useState([]);
   const { isDark, setIsDark } = useState(false);
   const [inputValue, setValue] = useState({
-    rating:"",
-    weather:"",
+    rating: "",
+    weather: "",
     review: "",
-    infrastructure:""
+    infrastructure: "",
   });
 
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -54,7 +54,7 @@ const Dashboard = () => {
     axios
       .delete(`https://s54-travel-advisory2.onrender.com/Travel/${id}`)
       .then(() => {
-        location.reload()
+        location.reload();
       })
       .catch((err) => console.log("error"));
   };
@@ -69,12 +69,15 @@ const Dashboard = () => {
 
   const handleUpdate = () => {
     axios
-      .patch(`https://s54-travel-advisory2.onrender.com/Travel/${selectedItemId}`, {
-        rating: inputValue.rating,
-        weather: inputValue.weather,
-        review: inputValue.review,
-        infrastructure: inputValue.infrastructure,
-      })
+      .put(
+        `https://s54-travel-advisory2.onrender.com/Travel/${selectedItemId}`,
+        {
+          rating: inputValue.rating,
+          weather: inputValue.weather,
+          review: inputValue.review,
+          infrastructure: inputValue.infrastructure,
+        }
+      )
       .then(() => {
         onClose();
       })
@@ -98,16 +101,22 @@ const Dashboard = () => {
             <Stack className="cardbody">
               <CardBody>
                 <Heading size="md">{item.name}</Heading>
-                <Text py="2">
-                  state -{item.state}
-                </Text>
-                <Text py="2">
-                  infrastructure - {item.infrastructure} 
-                </Text>
+                <Text py="2">state -{item.state}</Text>
+                <Text py="2">infrastructure - {item.infrastructure}</Text>
 
                 <Text py="2">rating - {item.rating}</Text>
                 <Text py="2">review -{item.review}</Text>
-                <Text>Review - {item.review}</Text>
+                <Text py="2">weather -{item.weather}</Text>
+                <Text className="blue">
+                  Location -{" "}
+                  <a
+                    href={item.google_map_location}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {item.name}
+                  </a>
+                </Text>
               </CardBody>
 
               <CardFooter>
@@ -145,7 +154,7 @@ const Dashboard = () => {
           <ModalCloseButton />
           <ModalBody pb={6}>
             <FormControl mt={4}>
-              <FormLabel>updated name</FormLabel>
+              <FormLabel>updated review</FormLabel>
               <Input
                 onChange={handleChange}
                 name="review"
@@ -155,7 +164,11 @@ const Dashboard = () => {
 
             <FormControl mt={4}>
               <FormLabel>Weather</FormLabel>
-              <Input onChange={handleChange} name="weather" placeholder="weather" />
+              <Input
+                onChange={handleChange}
+                name="weather"
+                placeholder="weather"
+              />
             </FormControl>
 
             <FormControl mt={4}>
