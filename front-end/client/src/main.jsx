@@ -6,6 +6,7 @@ import './index.css'
 import { ChakraProvider } from '@chakra-ui/react'
 import Place from './Components/Place.jsx'
 import Dashboard from './Components/Dashboard.jsx'
+import Formpage from './Components/Formpage.jsx'
 import AppProvider from './Context/Parentcontext.jsx'
 import {BrowserRouter} from 'react-router-dom'
 
@@ -17,8 +18,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <ChakraProvider>
 
   <React.StrictMode>
-    <Place />
+    {/* <Place /> */}
     <Dashboard />
+    <Formpage />
   </React.StrictMode>
   </ChakraProvider>
   </AppProvider>
