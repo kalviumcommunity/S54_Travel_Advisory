@@ -1,0 +1,14 @@
+.card{
+  margin-top: 50px;
+  column-gap: 50px;
+  padding-left: 50px;
+}
+.image{
+  height: 300px;
+}
+.image-class{
+  width: 300px;
+}
+.cardbody{
+  width: 80vw;
+}
