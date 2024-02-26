@@ -16,20 +16,7 @@ const validateRequest = (req, res, next) => {
   next();
 };
 
-router.post("/Travel",validateRequest,  async (req, res) => {
-  try {
-      const newUser = await User.create(req.body);
-      if (newUser) {
-          res.status(201).json(newUser);
-      } else {
-          res.status(400);
-          throw new Error("Failed To Create User");
-      }
-  } catch (err) {
-      console.error(err);
-      res.status(500).send("Internal Server Error");
-  }
-});
+
 
 router.get("/Travel", async (req, res) => {
   try {
@@ -42,7 +29,7 @@ router.get("/Travel", async (req, res) => {
 });
 
 // post a new data
-router.post("/Travel", async (req, res) => {
+router.post("/travel/Data", async (req, res) => {
   const data=req.body
   const newUserTravel= new Travel(data)
   console.log(newUserTravel)
