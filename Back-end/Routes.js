@@ -2,9 +2,34 @@ const express = require("express");
 const app = express();
 const router = express.Router();
 const Travel = require("./Schema.js");
+const validation=require("./joivalidation");
 
 app.use(express.json());
 router.use(express.json())
+
+const validateRequest = (req, res, next) => {
+  const { error } = validation.validate(req.body);
+  if (error) {
+      return res.status(400).json({ error: error.details[0].message });
+  }
+  next();
+};
+
+router.post("/Travel",validateRequest,  async (req, res) => {
+  try {
+      const newUser = await User.create(req.body);
+      if (newUser) {
+          res.status(201).json(newUser);
+      } else {
+          res.status(400);
+          throw new Error("Failed To Create User");
+      }
+  } catch (err) {
+      console.error(err);
+      res.status(500).send("Internal Server Error");
+  }
+});
+
 router.get("/Travel", async (req, res) => {
   try {
     const NewPlace = await Travel.find();
