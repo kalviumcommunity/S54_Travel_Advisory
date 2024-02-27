@@ -7,7 +7,7 @@ const router = require("./Routes");
 app.use(router)
 require("dotenv").config()
 const PORT = process.env.PORT || 5000
-
+app.use(express.json())
 
 const connectDB=require("./conectionDB")
 connectDB()
