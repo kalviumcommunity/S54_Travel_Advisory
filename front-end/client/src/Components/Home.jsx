@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Login from "./Login";
 import Place from "./Place";
 import Form from "./Form";
+import Dashboard from "./Dashboard"
 
 
 const Homepage = () => {
@@ -15,6 +16,7 @@ const Homepage = () => {
       <Routes>
 
         <Route path="/place" element={<Place />} />
+        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/form" element={<Form />} />
         <Route path="/login" element={<Login />} />
   
