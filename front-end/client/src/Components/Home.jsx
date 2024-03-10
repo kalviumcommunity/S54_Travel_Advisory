@@ -4,6 +4,9 @@ import Login from "./Login";
 import Place from "./Place";
 import Form from "./Form";
 import Dashboard from "./Dashboard"
+import Navbar from "./logout";
+import Formpage from "./Formpage";
+
 
 
 const Homepage = () => {
@@ -17,8 +20,10 @@ const Homepage = () => {
 
         <Route path="/place" element={<Place />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/logout " element={<Navbar />} />
         <Route path="/form" element={<Form />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/add" element={<Formpage />} />
   
       </Routes>
       

@@ -2,15 +2,18 @@ import Form from './Components/Form'
 import './App.css'
 import Homepage from './Components/Home'
 import Login from './Components/Login'
+import Navbar from './Components/logout'
+import Place from './Components/Place'
 function App() {
 
 
   return (
     <>
-      
+  <Navbar/>
+  <Place/>
   <Homepage/>
   {/* <Form/> */}
-  <Login/>
+  {/* <Login/> */}
 
     </>
   )
