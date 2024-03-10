@@ -18,7 +18,7 @@ const Homepage = () => {
       {/* <Navbar /> */}
       <Routes>
 
-        <Route path="/place" element={<Place />} />
+        <Route path="/" element={<Place />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/logout " element={<Navbar />} />
         <Route path="/form" element={<Form />} />
