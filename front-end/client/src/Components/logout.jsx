@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Button, Flex, Heading } from '@chakra-ui/react'; // Import Chakra UI components
 import Login from './Login';
-import { AppContext } from "../Context/Parentcontext";
+// import { AppContext } from "../Context/Parentcontext";
 import { deleteCookie } from './Cookie';
 
 const Navbar = () => {

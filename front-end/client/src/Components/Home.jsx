@@ -6,6 +6,7 @@ import Form from "./Form";
 import Dashboard from "./Dashboard"
 import Navbar from "./logout";
 import Formpage from "./Formpage";
+import Signup from "./Signup";
 
 
 
@@ -15,7 +16,6 @@ const Homepage = () => {
       <div className="backg-color">
         <div className="backg-img"></div>
       </div>
-      {/* <Navbar /> */}
       <Routes>
 
         <Route path="/" element={<Place />} />
@@ -24,6 +24,7 @@ const Homepage = () => {
         <Route path="/form" element={<Form />} />
         <Route path="/login" element={<Login />} />
         <Route path="/add" element={<Formpage />} />
+        <Route path="/Signup" element={<Signup />} />
   
       </Routes>
       
