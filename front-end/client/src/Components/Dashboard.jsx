@@ -32,29 +32,31 @@ import "./Place.css";
 
 const Dashboard = () => {
   const [data, setData] = useState([]);
-  const { isDark, setIsDark } = useState(false);
+  const [isDark, setIsDark] = useState(false); // Corrected initialization
   const [inputValue, setValue] = useState({
     rating: "",
-    weather: "",
+    img: "",
     review: "",
     infrastructure: "",
   });
 
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [selectedItemId, setSelectedItemId] = useState(null);
-
-  useEffect(() => {
-    axios
+const FetchData=()=>{
+  axios
       .get("https://s54-travel-advisory2.onrender.com/Travel")
       .then((res) => setData(res.data))
       .catch((err) => console.log("error"));
+}
+  useEffect(() => {
+    FetchData()
   }, []);
 
   const handleDelete = (id) => {
     axios
       .delete(`https://s54-travel-advisory2.onrender.com/Travel/${id}`)
       .then(() => {
-        location.reload();
+        FetchData()
       })
       .catch((err) => console.log("error"));
   };
@@ -73,7 +75,7 @@ const Dashboard = () => {
         `https://s54-travel-advisory2.onrender.com/Travel/${selectedItemId}`,
         {
           rating: inputValue.rating,
-          weather: inputValue.weather,
+          img: inputValue.img,
           review: inputValue.review,
           infrastructure: inputValue.infrastructure,
         }
@@ -104,9 +106,8 @@ const Dashboard = () => {
                 <Text py="2">state -{item.state}</Text>
                 <Text py="2">infrastructure - {item.infrastructure}</Text>
 
-                <Text py="2">rating - {item.rating}</Text>
+                <Text py="2">rating - {item.rating}⭐</Text>
                 <Text py="2">review -{item.review}</Text>
-                <Text py="2">weather -{item.weather}</Text>
                 <Text className="blue">
                   Location -{" "}
                   <a
@@ -127,7 +128,7 @@ const Dashboard = () => {
                       onOpen();
                     }}
                     variant="solid"
-                    colorScheme="green"
+                    colorScheme="yellow"
                   >
                     update
                   </Button>
@@ -136,7 +137,7 @@ const Dashboard = () => {
                       handleDelete(item._id);
                     }}
                     variant="solid"
-                    colorScheme="red"
+                    colorScheme="pink"
                   >
                     Delete
                   </Button>
@@ -163,11 +164,11 @@ const Dashboard = () => {
             </FormControl>
 
             <FormControl mt={4}>
-              <FormLabel>Weather</FormLabel>
+              <FormLabel>img</FormLabel>
               <Input
                 onChange={handleChange}
-                name="weather"
-                placeholder="weather"
+                name="img"
+                placeholder="img"
               />
             </FormControl>
 

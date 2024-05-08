@@ -34,6 +34,25 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
+/* Place.css */
+.dropdown-container {
+  margin-bottom: 1rem; /* Add some margin to bottom for spacing */
+}
+
+/* Customize the appearance of the select dropdown */
+.select {
+  width: 150px; /* Set a narrower width */
+}
+
+/* Style the dropdown arrow */
+.select::after {
+  content: "▼"; /* Unicode for down arrow */
+  position: absolute;
+  right: 10px; /* Adjust the position of the arrow */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 
 button {
   border-radius: 8px;
